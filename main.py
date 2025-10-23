@@ -13,3 +13,11 @@ while True:
     except:
         print("Both num1 and num2 must be able to be expressed as floating point values. Please try again.")
         continue
+
+#Calculate and output sum, diff, product of num1 & num2
+sum = num1 + num2
+print(f"The sum of {str(num1)} and {str(num2)} is {str(sum)}.")
+diff = num1 - num2
+print(f"The difference of {str(num1)} and {str(num2)} is {str(diff)}.")
+product = num1 * num2
+print(f"The sum of {str(num1)} and {str(num2)} is {str(product)}.")
