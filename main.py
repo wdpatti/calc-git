@@ -20,4 +20,4 @@ print(f"The sum of {str(num1)} and {str(num2)} is {str(sum)}.")
 diff = num1 - num2
 print(f"The difference of {str(num1)} and {str(num2)} is {str(diff)}.")
 product = num1 * num2
-print(f"The sum of {str(num1)} and {str(num2)} is {str(product)}.")
+print(f"The product of {str(num1)} and {str(num2)} is {str(product)}.")
