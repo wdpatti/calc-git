@@ -21,3 +21,13 @@ diff = num1 - num2
 print(f"The difference of {str(num1)} and {str(num2)} is {str(diff)}.")
 product = num1 * num2
 print(f"The product of {str(num1)} and {str(num2)} is {str(product)}.")
+
+#Check if num2 is zero (to prevent zero division)
+if num2 == 0:
+    print("Because the second number is zero, the quotient and modulo calculations are not possible.")
+else:
+    #If num2 is not zero calculate and output quotient with floor division and remainder with modulo
+    quotient = num1 // num2
+    print(f"The quotient (floor division) of {str(num1)} and {str(num2)} is {str(quotient)}.")
+    modulo = num1 % num2
+    print(f"The remainder after dividing {str(num1)} by {str(num2)} is {str(modulo)}.")
