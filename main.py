@@ -1,11 +1,11 @@
 #Repeat entire script until the user requests to stop
 while True:
     #Repeat until the numbers are both integers
-    num1 = input("Enter the first number: ")
-    num2 = input("Enter the second number: ")
-
     while True:
         #If these numbers are very large or very small nothing should change due to the nature of python's floating point variables
+        num1 = input("Enter the first number: ")
+        num2 = input("Enter the second number: ")
+
         #Check validity of num1 and num2 with try: except:
         try:
             num1 = float(num1)
@@ -22,7 +22,7 @@ while True:
     print(f"The difference of {str(num1)} and {str(num2)} is {str(diff)}.")
     product = num1 * num2
     print(f"The product of {str(num1)} and {str(num2)} is {str(product)}.")
-
+    
     #Check if num2 is zero (to prevent zero division)
     if num2 == 0:
         print("Because the second number is zero, the quotient and modulo calculations are not possible.")
